@@ -27,7 +27,7 @@ The Aquarium Dataset, used for model training and testing, includes annotated im
 
 If using Google Colab for training, setup is optional but recommended.
 
-##Usage
+## Usage
 Download Dataset: Use Roboflow or Kaggle to download the dataset.
 Dataset Configuration: Place the dataset in the data/ folder, ensuring YOLO format annotations.
 Model Configuration: Select YOLOv8 pretrained model weights, such as yolov8n.pt for a smaller model, to initialize training.
@@ -38,3 +38,15 @@ Clone this repository and navigate to the directory:
 ```bash
 git clone https://github.com/your-username/aquarium-object-detection.git
 cd aquarium-object-detection
+```
+
+## Results
+The model generates predictions on test images, which can be visualized to assess accuracy and effectiveness. Example metrics for model performance are as follows:
+
+Precision: XX%
+Recall: XX%
+mAP@50: XX%
+mAP@50-95: XX%
+
+## Contributing
+Contributions are welcome! If you have ideas or improvements, please open an issue or submit a pull request.
