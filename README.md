@@ -25,8 +25,14 @@ The Aquarium Dataset, used for model training and testing, includes annotated im
 - **Classes**: Multiple, including fish and coral
 - **Annotations**: Bounding boxes in YOLO format
 
-## Installation
+If using Google Colab for training, setup is optional but recommended.
 
+##Usage
+Download Dataset: Use Roboflow or Kaggle to download the dataset.
+Dataset Configuration: Place the dataset in the data/ folder, ensuring YOLO format annotations.
+Model Configuration: Select YOLOv8 pretrained model weights, such as yolov8n.pt for a smaller model, to initialize training.
+Training
+Run the following code in a Google Colab or Jupyter Notebook environment to start training:
 Clone this repository and navigate to the directory:
 
 ```bash
